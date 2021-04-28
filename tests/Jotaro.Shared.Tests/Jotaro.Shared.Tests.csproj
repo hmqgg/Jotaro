@@ -19,4 +19,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Jotaro.Shared\Jotaro.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
