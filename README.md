@@ -1,4 +1,4 @@
 # Jotaro
-Jotaro is a Discord bot.
+Just One Topic, Automatically Reply Onwards.
 
 This bot has Super Stand Powers.
