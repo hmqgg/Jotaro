@@ -3,6 +3,30 @@ name = "jotaro"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+diesel = { version = "2.0.2", features = ["sqlite", "r2d2"] }
+dotenvy = "0.15.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.23", features = ["macros", "rt-multi-thread"] }
+
+[dependencies.serenity]
+default-features = false
+features = [
+    "builder",
+    "cache",
+    "client",
+    "collector",
+#    "framework",
+    "gateway",
+    "http",
+    "model",
+#    "simd_json",
+#    "standard_framework",
+    "temp_cache",
+    "time",
+    "utils",
+#    "voice",
+    "rustls_backend",
+]
+version = "0.11"
